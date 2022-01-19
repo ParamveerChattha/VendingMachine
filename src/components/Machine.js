@@ -41,7 +41,7 @@ export const Machine = () => {
         justifyContent: "center",
       }}
     >
-      <h2>
+      <h2 style={{ marginLeft: "-10%" }}>
         Total Balance: ${Math.round((balance + Number.EPSILON) * 100) / 100}
       </h2>
       <h3 style={{ textAlign: "left" }}>
